@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --background-color: rgb(255, 255, 255);
+    --primary-color: rgb(21, 227, 108);
+    --black-color:rgba(0, 0, 0, 0.541);
+    --font-family--headone:'Paytone One', sans-serif;  /*The font to be used for FAGBEMS and FUNAABSU */
+    --font-family-headers: 'Poppins', sans-serif; /* The fonts for the headers sections*/
+    --font-family-body: 'Nunito', sans-serif;
+    --desktop-large-font-size: 84px; /* The font-size for the FAGBEMS and FUNAABSU */
+    --desktop-medium-font-size:
+
+
+    
+}
