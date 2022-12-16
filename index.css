@@ -171,6 +171,7 @@ div img {
 /* Container Two */
 .box-containers {
   margin: 0px 64px 0px 64px;
+  display: flex;
 }
 .container-two h2 {
   font-family: var(--font-family-headers);
@@ -243,7 +244,7 @@ div img {
   animation-name: myAnimation;
   transition-timing-function: ease-in;
   transition: all;
-  transition-delay: 0.5s;
+  transition-delay: 0.6s;
 }
 .box-image:hover .box-overlay {
   border-radius: 12px 12px 0px 0px;
