@@ -169,50 +169,87 @@ div img {
 }
 
 /* Container Two */
-.box-containers{
-  margin:64px;
+.box-containers {
+  margin: 0px 64px 0px 64px;
 }
 .container-two h2 {
   font-family: var(--font-family-headers);
   font-size: 56px;
   text-align: center;
-  margin-top: 74px;
+  margin-top: 0px;
 }
-.box-one{
+.box-one {
   display: flex;
-  height:200px;
-  width: 750px;
-  border: 10px solid var(--primary-color);
+  height: 500px;
+  width: 400px;
+  border: 7px solid var(--primary-color);
   border-radius: 20px;
-  justify-content:space-between;
+  justify-content: space-between;
   transform: scale(0.9);
-  
-
+  flex-direction: column-reverse;
 }
-.box-contents{
-font-family: var(--font-family-headers);
-padding: 20px 0px 20px 20px;
+.box-contents {
+  font-family: var(--font-family-headers);
+  padding: 24px;
+  text-align: center;
 }
-.box-contents h3{
+.box-contents h3 {
   font-size: 32px;
-  
 }
-.box-contents p{
+.box-contents p {
   font-size: 16px;
   font-family: var(--font-family-body);
   font-weight: 400;
   word-wrap: normal;
-  width: 400px;
+  width: auto;
   margin-top: 10px;
 }
 
-.box-one .box-image{
+.box-one .box-image {
   position: relative;
-  left: 24px;
+  left: 0px;
+  border-bottom: px solid var(--primary-color);
 }
-.box-one .box-image img{
-  max-width:93%;
+.box-one .box-image img {
+  max-width: 100%;
   height: auto;
-  border-radius: 0 15px 15px 0px;
+  border-radius: 10px 10px 0px 0px;
   object-fit: contain;
+}
+
+/* The hover effects for the box-containers */
+
+.box-one:hover {
+  box-shadow: 2px 2px 70px 5px var(--primary-color);
+  transition: all;
+  transition-duration: 1.3s;
+}
+.box-image:hover .box-overlay {
+}
+.box-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-family-headers);
+  color: var(--background-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  visibility: hidden;
+  height: 269px;
+  width: 400px;
+  text-align: center;
+  vertical-align: middle;
+  animation-name: myAnimation;
+  transition-timing-function: ease-in;
+  transition: all;
+  transition-delay: 0.5s;
+}
+.box-image:hover .box-overlay {
+  border-radius: 12px 12px 0px 0px;
+  visibility: visible;
+}
+
+#fagbems-vote {
+  transform: translateY(100%);
 }
