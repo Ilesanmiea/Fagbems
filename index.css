@@ -132,7 +132,8 @@ div img {
   color: var(--background-color);
   font-weight: 700;
 }
-.hero-section-content h2,#funaabsu {
+.hero-section-content h2,
+#funaabsu {
   font-family: var(--font-family--headone);
   color: var(--primary-color);
   font-weight: 400;
@@ -172,9 +173,9 @@ div img {
 .box-containers {
   margin: 32px 64px 0px 64px;
   display: flex;
-
 }
-.container-two h2 {
+.container-two h2,
+#fagbems-experience {
   font-family: var(--font-family-headers);
   font-size: 56px;
   text-align: center;
@@ -195,7 +196,8 @@ div img {
   padding: 24px;
   text-align: center;
 }
-.box-contents h3 {
+.box-contents h3,
+.founder-paye h3 {
   font-size: 32px;
 }
 .box-contents p {
@@ -256,46 +258,195 @@ div img {
   transform: translateY(100%);
 }
 
-#vote-section{
+#vote-section {
   width: 50px;
   height: 50px;
 }
-#campaign-icons{
+#campaign-icons {
   height: 50px;
   width: 50px;
   margin-top: 24px;
-  
 }
-.campaign-icons{
+.campaign-icons {
   display: flex;
   flex-direction: column;
   margin-top: 18px;
 }
-.campaign-words{
-  margin:40px 0px 0px 40px;
- 
+.campaign-words {
+  margin: 40px 0px 0px 40px;
 }
-#hero-section-content{
+#hero-section-content {
   display: flex;
-
 }
-.campaign-words h3:nth-child(2),.campaign-words h3:nth-child(3){
+.campaign-words h3:nth-child(2),
+.campaign-words h3:nth-child(3) {
   margin-top: 54px;
 }
-.campaign-words h3{
+.campaign-words h3 {
   font-size: 56px;
 }
 
-.for-funaabsu p{
+.for-funaabsu p {
   color: var(--background-color);
   font-size: 24px;
-  text-align:center;
+  text-align: center;
   margin-top: 20px;
   margin-bottom: -40px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: 400;
 }
-#funaab-academic-overlay{
-  width:12000px;
+
+#funaab-academic-overlay {
+  width: 110vw;
 }
 
+/* section four */
+.experience-section {
+  margin: 24px 64px 0px 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.outer-progress-bar {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  outline: 1.5px solid rgb(0, 0, 0, 0.5);
+  animation-name: myAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.outer-progress-bar div {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
+
+.progress-bar-length {
+  height: 80px;
+  width: 1.5px;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin: -2px 0px 0px 18.1px;
+  text-align: left;
+}
+#dark {
+  background-color: rgb(0, 0, 0.5);
+}
+
+/* The progress bar content */
+#founder-paye {
+  font-family: var(--font-family-headers);
+  text-align: left;
+  margin-top: 0px;
+}
+#founder-paye h3 {
+  padding: 15px;
+  height: 25px;
+  width: 180px;
+  background-color: rgb(196, 196, 196);
+  font-size: 24px;
+  text-align: center;
+}
+#founder-paye h3 + p {
+  font-size: 16px;
+  /* width: 900px; */
+}
+
+#progress-bar-content {
+  margin-left: 40px;
+}
+
+/* The testimonial section designs */
+section .testimonial {
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 30px;
+}
+/* .testimonial {
+  height: 180px;
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+  font-family: var(--font-family-body);
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.testimonial img {
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  margin-bottom: 10px;
+}
+.testimonial p {
+  padding: 30px;
+} */
+#testimonial-slider {
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  animation: slide 10s linear 4s infinite;
+  margin: 0 auto;
+}
+.one{
+  animation: slide 15s linear 16s infinite;
+}
+.two{
+  animation: slide 30s linear 32s infinite;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+/* .testimonial img {
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+} */
