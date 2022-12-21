@@ -32,9 +32,9 @@
     <header>
         <img src="assests/images/fagbems-logo.png" alt="Team-proactive-logo">
         <nav>
-            <a href="#">Manifesto</a>
-            <a href="#">Resume</a>
-            <a href="#">Reach Me</a>
+            <a href="#" id="link1" class="message">Manifesto</a>
+            <a href="#" id="link2">Resume</a>
+            <a href="#" >Reach Me</a>
         </nav>
     </header>
 
@@ -252,27 +252,27 @@
                             and other things that I have to do is to ensure that I raise reformers who is going to make
                             things work all through</p>
                     </div>
-                    <div id="founder-paye">
+                    <div id="founder-paye"  class="progress-bar-margin">
                         <h3>Founder Paye</h3>
                         <p>I led thousands of student to know about their values and all I have to do is to lead them
                             and other things that I have to do is to ensure that I raise reformers who is going to make
                             things work all through</p>
                     </div>
-                    <div id="founder-paye" class="founder-paye-two">
-                        <h3>Founder Paye</h3>
-                        <p>I led thousands of student to know about their values and all I have to do is to lead them
-                            and other things that I have to do is to ensure that I raise reformers who is going to make
-                            things work all through</p>
-                    </div>
-
-                    <div id="founder-paye">
+                    <div id="founder-paye" class="progress-bar-margin">
                         <h3>Founder Paye</h3>
                         <p>I led thousands of student to know about their values and all I have to do is to lead them
                             and other things that I have to do is to ensure that I raise reformers who is going to make
                             things work all through</p>
                     </div>
 
-                    <div id="founder-paye">
+                    <div id="founder-paye" class="progress-bar-margin">
+                        <h3>Founder Paye</h3>
+                        <p>I led thousands of student to know about their values and all I have to do is to lead them
+                            and other things that I have to do is to ensure that I raise reformers who is going to make
+                            things work all through</p>
+                    </div>
+
+                    <div id="founder-paye" class="progress-bar-margin">
                         <h3>Founder Paye</h3>
                         <p>I led thousands of student to know about their values and all I have to do is to lead them
                             and other things that I have to do is to ensure that I raise reformers who is going to make
@@ -368,13 +368,13 @@
 
             <div class="accordion">
                 <div class="accordion-section">
-                    <a href="#section1" class="accordion-section-title">Who is FAGBEMS</a>
+                    <a href="#section1" class="accordion-section-title">Who is FAGBEMS?</a>
                     <div id="section1" class="accordion-section-content">
                         <p>He is intelligent and smart about goal settings and making others to be better than than themselves</p>
                     </div>
                 </div>
                 <div class="accordion-section">
-                    <a href="#section1" class="accordion-section-title">Who is FAGBEMS</a>
+                    <a href="#section1" class="accordion-section-title">Who is FAGBEMS?</a>
                     <div id="section1" class="accordion-section-content">
                         <p>He is intelligent and smart about goal settings and making others to be better than than themselves</p>
                     </div>
@@ -390,7 +390,7 @@
             <!-- Call to Action -->
             <div class="cta-general-container">
 <div>
-    <p>Ready to move <b>FUNAAB</b> forward with <b>FAGBEMS</b></p>
+    <p>Ready to move <b>FUNAAB</b> forward with <b>FAGBEMS</b>?</p>
 </div>
 <div id="cta-button">
     <a href="" > Reach Me</a>
@@ -400,18 +400,25 @@
 </div>
             </div>
         </section>
+        <section>
+            <button class="back-to-top">Back to top</button>
+
+        </section>
     </main>
 
     <!-- The footer -->
     <footer>
-        <header>
+        <header id="footer">
             <img src="assests/images/fagbems-logo.png" alt="Team-proactive-logo">
             <nav>
-                <a href="#">Manifesto</a>
-                <a href="#">Resume</a>
-                <a href="#">Reach Me</a>
+                <a href="#footer" id="link3">Manifesto</a>
+                <a href="#footer" id="link4">Resume</a>
+                <a href="#footer">Reach Me</a>
             </nav>
         </header>
+        <div id="designer-watermark">
+            <a href="https://linktr.ee/ilesanmi_ea">Designed by Ilesanmi Emmanuel</a>
+        </div>
     </footer>
     <script>
 
@@ -427,6 +434,55 @@
                 content.classList.toggle('active');
             });
         });
+
+// Define the message
+var message = "This feature will be available soon!";
+
+// Attach a click event listener to the first link
+document.getElementById("link1").addEventListener("click", function() {
+  // Display the message
+  alert("This feature will be available soon!");
+});
+
+// Attach a click event listener to the second link
+document.getElementById("link2").addEventListener("click", function() {
+  // Display the message
+  alert("This feature will be available soon!");
+});
+document.getElementById("link3").addEventListener("click", function() {
+  // Display the message
+  alert("This feature will be available soon!");
+});
+document.getElementById("link4").addEventListener("click", function() {
+  // Display the message
+  alert("This feature will be available soon!");
+});
+
+// Define a function to display the message
+function displayMessage(message) {
+  // Add a class to the message element
+  document.getElementById("message").classList.add("message-style");
+  // Set the inner HTML of the message element
+  document.getElementById("message").innerHTML = message;
+}
+
+const backToTopButton = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 300) { // Show back to top button if user scrolls down 300px
+    backToTopButton.style.display = 'block';
+  } else {
+    backToTopButton.style.display = 'none';
+  }
+});
+
+backToTopButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
 
 
     </script>

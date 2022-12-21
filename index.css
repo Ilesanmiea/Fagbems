@@ -174,11 +174,15 @@ div img {
 #button {
   margin-top: 30px;
 }
+#button:hover{
+  opacity:0.8;
+}
 
 /* Container Two */
 .box-containers {
   margin: 32px 64px 0px 64px;
   display: flex;
+  overflow: hidden;
 }
 .container-two h2,
 #fagbems-experience {
@@ -190,12 +194,13 @@ div img {
 .box-one {
   display: flex;
   height: 500px;
-  width: 400px;
+  width: 600px;
   border: 7px solid var(--primary-color);
   border-radius: 20px;
   justify-content: space-between;
   transform: scale(0.9);
   flex-direction: column-reverse;
+  overflow: hidden;
 }
 .box-contents {
   font-family: var(--font-family-headers);
@@ -205,6 +210,7 @@ div img {
 .box-contents h3,
 .founder-paye h3 {
   font-size: 32px;
+  width: auto;
 }
 .box-contents p {
   font-size: 16px;
@@ -219,12 +225,14 @@ div img {
   position: relative;
   left: 0px;
   border-bottom: px solid var(--primary-color);
+  overflow: hidden;
 }
 .box-one .box-image img {
   max-width: 100%;
   height: auto;
   border-radius: 10px 10px 0px 0px;
   object-fit: contain;
+  overflow: hidden;
 }
 
 /* The hover effects for the box-containers */
@@ -254,10 +262,12 @@ div img {
   transition-timing-function: ease-in;
   transition: all;
   transition-delay: 0.6s;
+  overflow: hidden;
 }
 .box-image:hover .box-overlay {
   border-radius: 12px 12px 0px 0px;
   visibility: visible;
+  overflow: hidden;
 }
 
 #fagbems-vote {
@@ -350,7 +360,7 @@ div img {
 #founder-paye {
   font-family: var(--font-family-headers);
   text-align: left;
-  margin-top: 0px;
+  margin-top:0px;
 }
 #founder-paye h3 {
   padding: 15px;
@@ -362,11 +372,16 @@ div img {
 }
 #founder-paye h3 + p {
   font-size: 16px;
+  font-family: var(--font-family-body);
+  padding: 5px 0 0 0;
   /* width: 900px; */
 }
 
 #progress-bar-content {
   margin-left: 40px;
+}
+.progress-bar-margin{
+  margin-top: 14px !important;
 }
 
 /* The testimonial section designs */
@@ -518,6 +533,7 @@ section .testimonial {
   color: #333;
   text-decoration: none;
   font-family: var(--font-family-headers);
+  font-weight: 700;
 }
 
 .accordion-section-title:hover,
@@ -528,9 +544,11 @@ section .testimonial {
 .accordion-section-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.6s ease-out;
   font-family: var(--font-family-body);
   margin:5px 30px 0px 30px;
+  font-size: 16px;
+  
 }
 
 .accordion-section-content.active {
@@ -546,6 +564,7 @@ section .testimonial {
   justify-content:space-between;
   margin-top: 38px;
   padding: 50px 64px 50px 64px;
+
 }
 
 .cta-general-container div{
@@ -567,7 +586,37 @@ section .testimonial {
   margin-left: 180px;
 
 }
+#cta-button a:hover{
+  opacity:0.8;
+}
 
 footer header{
   flex-direction: row-reverse;
+}
+#designer-watermark{
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-family-body);
+  padding: 30px;
+  cursor: pointer;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+  z-index: 999999999999999999;
+}
+
+.back-to-top:hover {
+  background: #eee;
 }
