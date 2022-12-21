@@ -625,6 +625,9 @@ footer header{
 /* The reponsive views */
 
 @media (max-width:800px) {
+  header{
+    display: none;
+  }
   .hero-section-container{
     flex-direction: column;
   }
