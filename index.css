@@ -635,7 +635,9 @@ footer header{
   }
   .hero-section-container{
     flex-direction: column;
-    margin: 0px 32px;
+    margin: 0px 32px 0px 32px;
+ 
+    
   }
   .hero-section-content h1{
     font-size: 48px;
@@ -654,9 +656,13 @@ footer header{
     margin-top: 50px;
   }
   .hero-section-content h3{
-    line-height: 1;
-    word-wrap: normal;
+    /* line-height: 1;
     width: 10em;
-    word-spacing: -3px;
+    word-spacing: -3px; */
+  }
+  .fagbems-hero-picture-overlay{
+    transform: scale(0.8);
+    
+    
   }
 }
