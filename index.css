@@ -614,6 +614,7 @@ footer header{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: background 0.3s;
   z-index: 999999999999999999;
+  overflow: hidden;
 }
 
 .back-to-top:hover {
@@ -708,6 +709,10 @@ footer header{
 .for-funaabsu #funaabsu{
   text-align: left;
   line-height: 1;
-padding-bottom: -30px;
+transform: translateX(-100px);
+}
+.back-to-top{
+  bottom:0;
+  left: 20px;
 }
 }
