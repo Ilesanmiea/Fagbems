@@ -629,7 +629,18 @@ footer header{
     display: none;
     margin: 0;
   }
+  .hero-section{
+    margin-top: 0;
+  }
   .hero-section-container{
     flex-direction: column;
+    margin: 0px 32px;
+  }
+  .hero-section-content h1{
+    font-size: 48px;
+  }
+  .hero-section-content h2,
+  #funaabsu {
+    font-size: 64px;
   }
 }
