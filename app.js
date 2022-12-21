@@ -60,3 +60,7 @@ backToTopButton.addEventListener('click', () => {
   });
 });
 
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
