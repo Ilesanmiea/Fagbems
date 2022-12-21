@@ -651,9 +651,13 @@ footer header{
   }
   div img{
     max-width: 1000px;
+    height: 750px;
+  }
+  .overlay-one{
+    height: 750px;
   }
   .hero-section-content{
-    margin-top: 10px;
+    margin: 10px 0px 0px 0px;
   }
   .hero-section-content h3{
     /* line-height: 1;
@@ -661,13 +665,10 @@ footer header{
     word-spacing: -3px; */
   }
   .fagbems-hero-picture-overlay{
-    margin-top: 120px;
+    margin: 200px  0px 0px 0px;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%,-50%) scale(0.7);
-
-
-    
+    transform: translate(-50%, -50%) scale(0.68);
   }
 }
