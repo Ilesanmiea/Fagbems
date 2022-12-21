@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  overflow-x: hidden;
+}
 :root {
   --background-color: rgb(255, 255, 255);
   --primary-color: rgb(21, 227, 108);
@@ -113,9 +117,11 @@ div img {
 #fagbems-display-picture-white {
   height: 600px;
   width: 500px;
+ 
 }
 #fagbems-display-picture-white img {
   max-width: 100%;
+  
   /* background: var(--primary-color); */
   /* border-radius:50%;
   margin-right: 120px; */
@@ -533,16 +539,17 @@ section .testimonial {
 
 /* The cta css designs */
 .cta-general-container{
-  height: 100px;
+  height: auto;
   width: 100vw;
   background-color: rgb(196,196,196);
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   margin-top: 38px;
+  padding: 50px 64px 50px 64px;
 }
 
 .cta-general-container div{
-  
+
 }
 
 .cta-general-container div p{
@@ -557,5 +564,10 @@ section .testimonial {
   font-size: 22px;
   background-color: var(--primary-color);
   border-radius: 10px;
-  margin: 0;
+  margin-left: 180px;
+
+}
+
+footer header{
+  flex-direction: row-reverse;
 }
