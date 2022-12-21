@@ -660,9 +660,9 @@ footer header{
     margin: 10px 0px 0px 0px;
   }
   .hero-section-content h3{
-    /* line-height: 1;
+     line-height: 1;
     width: 10em;
-    word-spacing: -3px; */
+    word-spacing: -3px; 
   }
   .fagbems-hero-picture-overlay{
     margin: 200px  0px 0px 0px;
