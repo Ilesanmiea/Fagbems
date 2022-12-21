@@ -668,10 +668,30 @@ footer header {
     display: flex;
     margin: 0;
     flex-direction: column;
+    position: fixed;
+    background-color:;
+    width: 20vw;
+    height: 100%;
+    justify-content: flex-start;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999;
+    
+  }
+
+  header img{
+    margin-left: -20px;
   }
   nav{
     display: flex;
     flex-direction: column;
+    color: white;
+    margin-top: 50px;
+    margin-left: -20px;
+    /* justify-content: flex-start; */
+  }
+  nav a{
+    color: var(--black-color) ;
+    z-index: 99999;
+    margin-top: 10px;
   }
 .container-menu{
   display: flex;
