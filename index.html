@@ -23,6 +23,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
         rel="stylesheet">
+        l
     <title> FAGBEMS || FUNAABSU 001</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -420,72 +421,7 @@
             <a href="https://linktr.ee/ilesanmi_ea">Designed &amp; Developed by Ilesanmi Emmanuel</a>
         </div>
     </footer>
-    <script>
-
-        // Get all accordion section titles
-        var titles = document.querySelectorAll('.accordion-section-title');
-
-        // Add an event listener to each title
-        titles.forEach(function (title) {
-            title.addEventListener('click', function () {
-                // Toggle the "active" class on the title and corresponding content
-                this.classList.toggle('active');
-                var content = this.nextElementSibling;
-                content.classList.toggle('active');
-            });
-        });
-
-// Define the message
-var message = "This feature will be available soon!";
-
-// Attach a click event listener to the first link
-document.getElementById("link1").addEventListener("click", function() {
-  // Display the message
-  alert("This feature will be available soon!");
-});
-
-// Attach a click event listener to the second link
-document.getElementById("link2").addEventListener("click", function() {
-  // Display the message
-  alert("This feature will be available soon!");
-});
-document.getElementById("link3").addEventListener("click", function() {
-  // Display the message
-  alert("This feature will be available soon!");
-});
-document.getElementById("link4").addEventListener("click", function() {
-  // Display the message
-  alert("This feature will be available soon!");
-});
-
-// Define a function to display the message
-function displayMessage(message) {
-  // Add a class to the message element
-  document.getElementById("message").classList.add("message-style");
-  // Set the inner HTML of the message element
-  document.getElementById("message").innerHTML = message;
-}
-
-const backToTopButton = document.querySelector('.back-to-top');
-
-window.addEventListener('scroll', () => {
-  if (window.pageYOffset > 300) { // Show back to top button if user scrolls down 300px
-    backToTopButton.style.display = 'block';
-  } else {
-    backToTopButton.style.display = 'none';
-  }
-});
-
-backToTopButton.addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-});
-
-
-
-    </script>
+   <script src="app.js"></script>
 </body>
 
 </html>
