@@ -658,7 +658,7 @@ footer header {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s;
+  transition: background 0.1s;
   z-index: 999999999999999999;
   overflow: hidden;
 }
