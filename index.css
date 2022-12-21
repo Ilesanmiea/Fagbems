@@ -810,6 +810,7 @@ footer header {
     flex-direction: column;
     justify-content: space-between;
     width: auto;
+    margin-top: 24px;
 
   }
 #cta-button a {
