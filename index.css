@@ -85,7 +85,6 @@ div img {
 .hero-section {
   position: relative;
   overflow: hidden;
-  margin-top: 0px;
   z-index: 9999;
   margin-top: 20px;
 }
@@ -631,6 +630,7 @@ footer header{
   }
   .hero-section{
     margin-top: 0;
+    overflow: hidden;
   }
   .hero-section-container{
     flex-direction: column;
