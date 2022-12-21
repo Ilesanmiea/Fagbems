@@ -631,6 +631,7 @@ footer header{
   .hero-section{
     margin-top: 0;
     overflow: hidden;
+    height: auto;
   }
   .hero-section-container{
     flex-direction: column;
@@ -648,5 +649,14 @@ footer header{
   }
   div img{
     max-width: 1000px;
+  }
+  .hero-section-content{
+    margin-top: 50px;
+  }
+  .hero-section-content h3{
+    line-height: 1;
+    word-wrap: normal;
+    width: 10em;
+    word-spacing: -3px;
   }
 }
