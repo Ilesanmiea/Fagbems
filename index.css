@@ -544,7 +544,7 @@ section .testimonial {
 .accordion-section-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.6s ease-out;
+  transition: max-height 0.2s ease-out;
   font-family: var(--font-family-body);
   margin:5px 30px 0px 30px;
   font-size: 16px;
@@ -619,4 +619,13 @@ footer header{
 
 .back-to-top:hover {
   background: #eee;
+}
+
+
+/* The reponsive views */
+
+@media (max-width:800px) {
+  .hero-section-container{
+    flex-direction: column;
+  }
 }
