@@ -483,7 +483,7 @@ section .testimonial {
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  width: auto;
   /* position: absolute;
   top:50%;
   left: 50%;
@@ -493,8 +493,8 @@ section .testimonial {
 }
 
 .photo {
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
   overflow: hidden;
   transition: all 1.5s;
 }
@@ -721,4 +721,12 @@ transform: translateX(-64px);
 .experience-section{
   margin: 24px 32px 0px 32px;
 }
+#photo-gallery {
+  flex-direction: column;
+}
+.photo img{
+  width: 100%;
+}
+#general-container-gallery{
+  margin: 24px 32px 0px 32px}
 }
