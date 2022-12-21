@@ -393,12 +393,13 @@ section .testimonial {
   padding: 30px;
 } */
 #testimonial-slider {
-  width: 500px;
-  height: 200px;
+  width: 100vw;
+  height: 250px;
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
+  
 }
 
 .testimonial {
@@ -410,12 +411,13 @@ section .testimonial {
   align-items: center;
   position: absolute;
   top: 0px;
-  left: 0;
-  animation: slide 10s linear 4s infinite;
+  left: -1000px;
+  animation: slide 30s linear 45s infinite;
   margin: 0 auto;
 }
 .one{
-  animation: slide 15s linear 16s infinite;
+  animation: slide 15s linear 20s infinite;
+  left:-500px;
 }
 .two{
   animation: slide 30s linear 32s infinite;
@@ -437,7 +439,7 @@ section .testimonial {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(50%);
+    transform: translateX(100%);
   }
 }
 
@@ -450,3 +452,110 @@ section .testimonial {
   transform: translate(-50%, -50%);
   
 } */
+/* The photo gallery */
+#general-container-gallery{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+#photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  /* position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  border: 7px solid var(--primary-color);
+  border-radius:20px ;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  transition: all 1.5s;
+}
+.photo:hover{
+  box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.5);
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* The accordion designs */
+
+.general-accordion{
+  display: flex;
+  justify-content: center;
+}
+.accordion {
+  overflow: hidden;
+  
+
+}
+
+.accordion-section {
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.accordion-section-title {
+  display: block;
+  padding: 20px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  font-family: var(--font-family-headers);
+}
+
+.accordion-section-title:hover,
+.accordion-section-title.active {
+  background-color: #f2f2f2;
+}
+
+.accordion-section-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: var(--font-family-body);
+  margin:5px 30px 0px 30px;
+}
+
+.accordion-section-content.active {
+  max-height: 500px; /* Adjust this value to control the height of the open section */
+}
+
+/* The cta css designs */
+.cta-general-container{
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(196,196,196);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 38px;
+}
+
+.cta-general-container div{
+  
+}
+
+.cta-general-container div p{
+  font-family: var(--font-family-headers);
+  font-size: 24px;
+}
+#cta-button a{
+  text-decoration: none;
+  padding: 10px;
+  color: var(--background-color);
+  font-family: var(--font-family-headers);
+  font-size: 22px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  margin: 0;
+}
