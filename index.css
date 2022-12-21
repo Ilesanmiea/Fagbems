@@ -525,7 +525,7 @@ section .testimonial {
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
+  width: 600px;
   /* position: absolute;
   top:50%;
   left: 50%;
@@ -535,8 +535,8 @@ section .testimonial {
 }
 
 .photo {
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   transition: all 1.5s;
 }
@@ -795,11 +795,22 @@ footer header {
     flex-direction: column;
   }
 
-  .photo img {
-    width: 100%;
+  .photo {
+    width: auto;
+    height: auto;
   }
 
   #general-container-gallery {
     margin: 24px 32px 0px 32px
+  }
+  .general-accordion{
+    margin: 24px 32px 0px 32px;
+  }
+  .cta-general-container{
+    flex-direction: column;
+    
+  }
+  #cta-button{
+    margin: 24px 0px 0px 32px;
   }
 }
