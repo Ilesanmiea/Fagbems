@@ -808,9 +808,15 @@ footer header {
   }
   .cta-general-container{
     flex-direction: column;
-    
+    justify-content: space-between;
+    width: auto;
+
   }
-  #cta-button{
-    margin: 24px 0px 0px 32px;
-  }
+#cta-button a {
+  margin-left: 0;
+}
+#cta-button{
+  transform: translateY(24px);
+
+}
 }
