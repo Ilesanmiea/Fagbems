@@ -671,4 +671,16 @@ footer header{
     left: 50%;
     transform: translate(-50%, -50%) scale(0.68);
   }
+  .box-containers{
+    flex-direction: column;
+    overflow: visible;
+    margin: 24px 32px 24px 32px;
+    justify-content: center;
+    
+  }
+  .box-one{
+    height:auto;
+    width: auto;
+    overflow: visible;
+  }
 }
