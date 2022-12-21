@@ -646,4 +646,7 @@ footer header{
   .hero-horizon{
     width: 300px;
   }
+  div img{
+    max-width: 1000px;
+  }
 }
