@@ -687,4 +687,18 @@ footer header{
 #fagbems-experience{
   font-size: 24px;
 }
+/* .campaign-icons{
+  height: 50px;
+  width: 50px;
+} */
+.campiagn-words{
+  margin-top: 2px;
+}
+.campaign-words h3 {
+  font-size: 32px;
+}
+.campaign-words h3:nth-child(2),
+.campaign-words h3:nth-child(3) {
+  margin-top: 54px;
+}
 }
