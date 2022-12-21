@@ -716,6 +716,9 @@ transform: translateX(-64px);
   left: 20px;
 }
 .progress-bar-length{
-  height: 215px;
+  height: 195px;
+}
+.experience-section{
+  margin: 24px 32px 0px 32px;
 }
 }
