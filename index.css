@@ -683,4 +683,8 @@ footer header{
     width: auto;
     overflow: visible;
   }
+  .container-two h2,
+#fagbems-experience{
+  font-size: 24px;
+}
 }
