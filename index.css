@@ -126,7 +126,6 @@ div img {
 #fagbems-display-picture-white {
   height: 600px;
   width: 500px;
-
 }
 
 #fagbems-display-picture-white img {
@@ -266,7 +265,8 @@ div img {
   transition-duration: 1.3s;
 }
 
-.box-image:hover .box-overlay {}
+.box-image:hover .box-overlay {
+}
 
 .box-overlay {
   position: absolute;
@@ -405,7 +405,7 @@ div img {
   text-align: center;
 }
 
-#founder-paye h3+p {
+#founder-paye h3 + p {
   font-size: 16px;
   font-family: var(--font-family-body);
   padding: 5px 0 0 0;
@@ -457,7 +457,6 @@ section .testimonial {
   position: relative;
   display: flex;
   justify-content: center;
-
 }
 
 .testimonial {
@@ -519,7 +518,6 @@ section .testimonial {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-
 }
 
 #photo-gallery {
@@ -561,8 +559,6 @@ section .testimonial {
 
 .accordion {
   overflow: hidden;
-
-
 }
 
 .accordion-section {
@@ -591,7 +587,6 @@ section .testimonial {
   font-family: var(--font-family-body);
   margin: 5px 30px 0px 30px;
   font-size: 16px;
-
 }
 
 .accordion-section-content.active {
@@ -608,10 +603,10 @@ section .testimonial {
   justify-content: space-between;
   margin-top: 38px;
   padding: 50px 64px 50px 64px;
-
 }
 
-.cta-general-container div {}
+.cta-general-container div {
+}
 
 .cta-general-container div p {
   font-family: var(--font-family-headers);
@@ -627,7 +622,6 @@ section .testimonial {
   background-color: var(--primary-color);
   border-radius: 10px;
   margin-left: 180px;
-
 }
 
 #cta-button a:hover {
@@ -667,10 +661,9 @@ footer header {
   background: #eee;
 }
 
-
 /* The reponsive views */
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   header {
     display: none;
     margin: 0;
@@ -685,8 +678,6 @@ footer header {
   .hero-section-container {
     flex-direction: column;
     margin: 0px 32px 0px 32px;
-
-
   }
 
   .hero-section-content h1 {
@@ -734,7 +725,6 @@ footer header {
     overflow: visible;
     margin: 24px 32px 24px 32px;
     justify-content: center;
-
   }
 
   .box-one {
@@ -767,7 +757,7 @@ footer header {
   }
 
   .for-funaabsu p,
-  .for-funaabsu>p {
+  .for-funaabsu > p {
     margin-top: 8px;
   }
 
@@ -779,8 +769,9 @@ footer header {
   }
 
   .back-to-top {
-    bottom: 0;
+    bottom: 20px;
     left: 20px;
+    width: auto;
   }
 
   .progress-bar-length {
@@ -801,23 +792,21 @@ footer header {
   }
 
   #general-container-gallery {
-    margin: 24px 32px 0px 32px
-  }
-  .general-accordion{
     margin: 24px 32px 0px 32px;
   }
-  .cta-general-container{
+  .general-accordion {
+    margin: 24px 32px 0px 32px;
+  }
+  .cta-general-container {
     flex-direction: column;
     justify-content: space-between;
     width: auto;
     margin-top: 24px;
-
   }
-#cta-button a {
-  margin-left: 0;
-}
-#cta-button{
-  transform: translateY(24px);
-
-}
+  #cta-button a {
+    margin-left: 0;
+  }
+  #cta-button {
+    transform: translateY(24px);
+  }
 }
