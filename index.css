@@ -147,6 +147,7 @@ div img {
   font-family: var(--font-family-headers);
   color: var(--background-color);
   font-weight: 700;
+  font-family: "Dancing Script", cursive;
 }
 
 .hero-section-content h2,
@@ -665,15 +666,21 @@ footer header {
 
 @media (max-width: 800px) {
   header {
-    display: flex;
+    display: none;
     margin: 0;
     flex-direction: column;
     position: fixed;
     background-color:;
-    width: 20vw;
+    width: 100vw;
     height: 100%;
     justify-content: flex-start;
     z-index: 9999999999999999999999999999999999999999999999999999999999999999999999;
+    
+  }
+  #close-nav{
+    position: relative;
+   left: 65%;
+    top: -40px;
     
   }
 
@@ -697,6 +704,13 @@ footer header {
   display: flex;
   justify-content: flex-end;
   margin-right: 24px;
+  position: relative;
+  z-index: 99;
+}
+
+.container-menu img{
+  height: 50px;
+  width: 50px;
 }
   .container {
     display: block;
@@ -715,7 +729,7 @@ footer header {
     transition: 0.4s;
   }
   
-  .change .bar1 {
+  /* .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg) ;
   }
   
@@ -723,7 +737,7 @@ footer header {
   
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg) ;
-  }
+  } */
   .hero-section {
     margin-top: 0;
     overflow: hidden;
@@ -844,6 +858,9 @@ footer header {
   .photo {
     width: auto;
     height: auto;
+  }
+  .photo:hover{
+    transform: scale(1);
   }
 
   #general-container-gallery {

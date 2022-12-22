@@ -60,7 +60,20 @@ backToTopButton.addEventListener('click', () => {
   });
 });
 
-function myFunction(x) {
-    x.classList.toggle("change");
+// function myFunction(x) {
+//     x.classList.toggle("change");
+//   }
+
+  const menuButton = document.getElementById('menu-button');
+const menu = document.getElementById('mySidenav');
+
+menuButton.addEventListener('click', () => {
+  mySidenav.style.display = menu.style.display === 'none' ? 'flex' : 'none';
+});
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
   }
+  function closeNav() {
+      document.getElementById("mySidenav").style.display ='none';
+    } 
 
