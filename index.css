@@ -699,6 +699,7 @@ footer header {
     color: var(--black-color) ;
     z-index: 99999;
     margin-top: 10px;
+    font-size: 24px;
   }
 .container-menu{
   display: flex;
