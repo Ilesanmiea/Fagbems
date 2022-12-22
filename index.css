@@ -54,6 +54,10 @@ header nav a {
   line-height: 22px;
   color: var(--black-color);
 }
+/* menu navs */
+#close-nav,#menu-button{
+  display: none;
+}
 
 /* to debug the overflowing elements and to align the elements perfectly
 header,header::before,header::after{
@@ -163,7 +167,7 @@ div img {
   font-family: var(--font-family-body);
   font-size: 32px;
   color: var(--background-color);
-  line-height: 28px;
+  line-height: 10px;
   font-weight: 400;
 }
 
@@ -639,6 +643,7 @@ footer header {
   font-family: var(--font-family-body);
   padding: 30px;
   cursor: pointer;
+  text-align: center;
 }
 
 .back-to-top {
@@ -678,11 +683,17 @@ footer header {
     
   }
   #close-nav{
+    display: block;
     position: relative;
    left: 65%;
     top: -40px;
     
   }
+  #menu-button{
+    display: flex;
+    
+  }
+  
 
   header img{
     margin-left: -20px;
@@ -699,7 +710,7 @@ footer header {
     color: var(--black-color) ;
     z-index: 99999;
     margin-top: 10px;
-    font-size: 24px;
+   
   }
 .container-menu{
   display: flex;
@@ -710,6 +721,7 @@ footer header {
 }
 
 .container-menu img{
+  display: flex;
   height: 50px;
   width: 50px;
 }
@@ -777,9 +789,13 @@ footer header {
   }
 
   .hero-section-content h3 {
-    line-height: 1;
     width: 10em;
-    word-spacing: -3px;
+    word-spacing: 3px;
+    line-height: 1.2;
+    font-weight: 400;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Inter', sans-serif;
+
   }
 
   .fagbems-hero-picture-overlay {
@@ -787,7 +803,7 @@ footer header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.68);
+    transform: translate(-53.5%, -50%) scale(0.67);
   }
 
   .box-containers {
