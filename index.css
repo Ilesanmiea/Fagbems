@@ -753,13 +753,16 @@ footer header {
   } */
   .hero-section {
     margin-top: 0;
-    overflow: hidden;
+    overflow: hidd;
     height: auto;
+    width: auto;
   }
 
   .hero-section-container {
     flex-direction: column;
     margin: 0px 32px 0px 32px;
+    overflow: visible;
+    width: auto;
   }
 
   .hero-section-content h1 {
@@ -845,6 +848,7 @@ footer header {
   .for-funaabsu p,
   .for-funaabsu > p {
     margin-top: 8px;
+    transform: translateY(-20px);
   }
 
   .for-funaabsu #funaabsu {
