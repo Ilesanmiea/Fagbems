@@ -667,6 +667,13 @@ footer header {
   background: #eee;
 }
 
+/* The about me designs */
+
+.about-me-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* The reponsive views */
 
 @media (max-width: 800px) {
