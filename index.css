@@ -674,11 +674,15 @@ footer header {
   justify-content: space-between;
   margin: 0px 64px;
 }
-.about-me-contents h2,.about-me-contents h3, main h2{
+.about-me-contents h2,.about-me-contents h3{
   font-family: var(--font-family-headers);
   color: var(--primary-color);
-  
 }
+main h2{
+  font-family: var(--font-family-headers);
+  color: var(--primary-color);
+}
+
 .about-me-contents h3{
  margin-top: 16px;
 }
@@ -693,7 +697,7 @@ footer header {
 }
 .about-me-picture img{
   max-width: 100%;
-  height: 450px;
+  height: 480px;
   background-color: var(--primary-color);
   border-radius: 50px;
   
@@ -942,5 +946,7 @@ footer header {
   .about-me-picture{
     transform: scale(0.9);
   }
-  
+  main h2{
+    text-align: left;
+  }
 }
