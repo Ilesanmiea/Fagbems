@@ -929,7 +929,7 @@ footer header {
   }
 
   .about-me-container{
-    flex-direction: row;
+    flex-direction: column;
   }
  
 }
