@@ -679,6 +679,10 @@ footer header {
   color: var(--primary-color);
   
 }
+.about-me-contents h3{
+ margin-top: 16px;
+}
+
 .about-me-contents p, .about-me-contents ul{
   font-family:var(--font-family-body);
   font-size: 16px;
