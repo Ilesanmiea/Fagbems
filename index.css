@@ -669,7 +669,7 @@ footer header {
 
 /* The about me designs */
 
-.about-me-container, main h2{
+.about-me-container{
   display: flex;
   justify-content: space-between;
   margin: 0px 64px;
@@ -678,7 +678,7 @@ footer header {
   font-family: var(--font-family-headers);
   color: var(--primary-color);
 }
-main h2{
+main > h2{
   font-family: var(--font-family-headers);
   color: var(--primary-color);
 }
@@ -701,6 +701,9 @@ main h2{
   background-color: var(--primary-color);
   border-radius: 50px;
   
+}
+#meet-fagbems{
+  margin-left: 32px;
 }
 
 /* The reponsive views */
@@ -948,7 +951,5 @@ main h2{
   .about-me-picture{
     transform: scale(0.9);
   }
-  main h2{
-    text-align: left;
-  }
+ 
 }
