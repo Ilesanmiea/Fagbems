@@ -934,6 +934,7 @@ footer header {
 
   .about-me-container{
     flex-direction: column-reverse;
+    margin: 0px 32px;
   }
- 
+  
 }
