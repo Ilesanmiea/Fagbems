@@ -897,7 +897,7 @@ main h2{
   .back-to-top {
     bottom: 20px;
     left: 20px;
-    width: auto;
+    width: 100px;
   }
 
   .progress-bar-length {
