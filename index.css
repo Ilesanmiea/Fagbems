@@ -931,7 +931,9 @@ main h2{
     justify-content: space-between;
     width: auto;
     margin-top: 24px;
+    padding: 50px 32px 50px 32px;
   }
+ 
   #cta-button a {
     margin-left: 0;
   }
