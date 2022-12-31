@@ -696,6 +696,7 @@ footer header {
   height: 450px;
   background-color: var(--primary-color);
   border-radius: 50px;
+  
 }
 
 /* The reponsive views */
@@ -937,6 +938,9 @@ footer header {
   .about-me-container{
     flex-direction: column-reverse;
     margin: 0px 32px;
+  }
+  .about-me-picture{
+    transform: scale(0.9);
   }
   
 }
