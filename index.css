@@ -669,12 +669,12 @@ footer header {
 
 /* The about me designs */
 
-.about-me-container{
+.about-me-container, main h2{
   display: flex;
   justify-content: space-between;
   margin: 0px 64px;
 }
-.about-me-contents h2,.about-me-contents h3{
+.about-me-contents h2,.about-me-contents h3, main h2{
   font-family: var(--font-family-headers);
   color: var(--primary-color);
   
