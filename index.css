@@ -691,6 +691,9 @@ footer header {
   list-style-type:disc;
   
 }
+.about-me-picture img{
+  max-width: 100%;
+}
 
 /* The reponsive views */
 
