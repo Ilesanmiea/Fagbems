@@ -927,5 +927,9 @@ footer header {
   #cta-button {
     transform: translateY(24px);
   }
+
+  .about-me-container{
+    flex-direction: row;
+  }
  
 }
