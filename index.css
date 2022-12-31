@@ -672,6 +672,20 @@ footer header {
 .about-me-container{
   display: flex;
   justify-content: space-between;
+  margin: 0px 64px;
+}
+.about-me-contents h2,.about-me-contents h3{
+  font-family: var(--font-family-headers);
+  color: var(--primary-color);
+  
+}
+.about-me-contents p, .about-me-contents ul{
+  font-family:var(--font-family-body);
+  font-size: 16px;
+}
+.about-me-contents ul{
+  list-style-type:disc;
+  
 }
 
 /* The reponsive views */
