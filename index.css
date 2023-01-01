@@ -743,6 +743,9 @@ main > h2{
   font-family: var(--font-family-body);
   font-size: 18px;
 }
+.video-section{
+  margin-top: 24px;
+}
 
 /* The reponsive views */
 
@@ -1009,5 +1012,9 @@ main > h2{
  }
  .accordion{
   margin: 24px 32px;
+ }
+ .video-section{
+  margin-top: 32px;
+  margin-bottom: 32px;
  }
 }
