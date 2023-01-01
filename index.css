@@ -738,6 +738,11 @@ main > h2{
   color: #eee;
 }
 
+#para-pro{
+  font-family: var(--font-family-body);
+  font-size: 18px;
+}
+
 /* The reponsive views */
 
 @media (max-width: 800px) {
