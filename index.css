@@ -730,6 +730,8 @@ main > h2{
 }
 #meet-fagbems{
   margin-left: 64px;
+  color: var(--primary-color);
+  font-family: var(--font-family-headers);
 }
 #btt-btn{
   text-decoration: none;
