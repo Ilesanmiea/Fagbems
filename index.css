@@ -597,7 +597,7 @@ video{
   color: #333;
   text-decoration: none;
   font-family: var(--font-family-headers);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .accordion-section-title:hover,
