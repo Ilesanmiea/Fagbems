@@ -384,7 +384,7 @@ div img {
 }
 
 .progress-bar-length {
-  height: 80px;
+  height: 235px;
   width: 1.5px;
   background-color: rgb(0, 0, 0, 0.5);
   margin: -2px 0px 0px 18.1px;
@@ -403,9 +403,9 @@ div img {
 }
 
 #founder-paye h3 {
-  padding: 15px;
-  height: 25px;
-  width: 180px;
+  padding: 10px;
+  height: auto;
+  width: 70px;
   background-color: rgb(196, 196, 196);
   font-size: 24px;
   text-align: center;
@@ -421,7 +421,9 @@ div img {
 #progress-bar-content {
   margin-left: 40px;
 }
-
+#founder-paye p{
+  margin-top: 6px;
+}
 .progress-bar-margin {
   margin-top: 14px !important;
 }
@@ -915,7 +917,7 @@ main > h2{
   }
 
   .progress-bar-length {
-    height: 450px;
+    height: 485px;
   }
 
   .experience-section {
