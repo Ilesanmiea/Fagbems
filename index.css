@@ -898,13 +898,13 @@ main > h2{
   .for-funaabsu p,
   .for-funaabsu > p {
     margin-top: 8px;
-    transform: translateY(-20px);
+    transform: translateY(-10px) translateX(-90px);
   }
 
   .for-funaabsu #funaabsu {
     text-align: left;
     line-height: 1;
-    transform: translateX(-84px);
+    transform: translateX(-120px) translateY(20px) scale(0.8);
     width: 100%;
   }
 
