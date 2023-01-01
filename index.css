@@ -771,7 +771,7 @@ main > h2{
 
 .container-menu img{
   display: flex;
-  height: 50px;
+  height: 40px;
   width: 50px;
 }
   .container {
@@ -963,6 +963,7 @@ main > h2{
     margin: 0;
     height: 450px;
     overflow: hidden;
+    max-width: 105%;
   }
 
   main #meet-fagbems{
