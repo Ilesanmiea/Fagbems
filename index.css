@@ -898,13 +898,13 @@ main > h2{
   .for-funaabsu p,
   .for-funaabsu > p {
     margin-top: 8px;
-    transform: translateY(-5px) translateX(-120px);
+    transform: translateY(-15px) translateX(-120px);
   }
 
   .for-funaabsu #funaabsu {
     text-align: left;
     line-height: 1;
-    transform: translateX(-100px) translateY(24px) scale(0.95);
+    transform: translateX(-118px) translateY(-0.5px) scale(0.9);
     width: 100%;
   }
 
@@ -915,7 +915,7 @@ main > h2{
   }
 
   .progress-bar-length {
-    height: 195px;
+    height: 450px;
   }
 
   .experience-section {
