@@ -671,7 +671,7 @@ footer header {
 
 .about-me-container{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   margin: 0px 64px;
 }
 .about-me-contents h2,.about-me-contents h3{
@@ -696,14 +696,24 @@ main > h2{
   
 }
 .about-me-picture img{
-  max-width: 100%;
-  height: 480px;
+  max-width: 1000px;
+  height: 550px;
   background-color: var(--primary-color);
   border-radius: 50px;
+  margin-left: 14px;
+  margin-top: 24px;
+
   
 }
+.about-me-contents p{
+  margin-top: 12px;
+}
 #meet-fagbems{
-  margin-left: 32px;
+  margin-left: 64px;
+}
+#btt-btn{
+  text-decoration: none;
+  color: #eee;
 }
 
 /* The reponsive views */
@@ -948,8 +958,16 @@ main > h2{
     flex-direction: column-reverse;
     margin: 0px 32px;
   }
-  .about-me-picture{
-    transform: scale(0.9);
+  .about-me-picture img{
+    transform: scale(1);
+    margin: 0;
+    height: 450px;
+    overflow: hidden;
+  }
+
+  main #meet-fagbems{
+    margin-left: 32px;
+    margin-bottom: 24px;
   }
  
 }
