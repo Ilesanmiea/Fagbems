@@ -483,10 +483,10 @@ section .testimonial {
 }
 video{
   height: 400px;
-  max-width: 100%;
+  max-width: 400px;
   display: flex;
   justify-content: center;
-  margin: 0px 64px;
+  margin: 0px auto;
   
 }
 .video-section div{
@@ -909,7 +909,7 @@ main > h2{
   video{
     width: 320px;
     height: 240px;
-    margin: 0px 32px;
+    margin: 0px auto;
   }
 
   /* .campaign-icons{
