@@ -580,6 +580,7 @@ video{
 .general-accordion {
   display: flex;
   justify-content: center;
+  margin: 24px 64px;
 }
 
 .accordion {
@@ -1005,5 +1006,8 @@ main > h2{
  header #footer{
   display: flex;
   flex-direction: column;
+ }
+ .accordion{
+  margin: 24px 32px;
  }
 }
