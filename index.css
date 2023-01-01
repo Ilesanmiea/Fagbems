@@ -346,6 +346,7 @@ div img {
   margin-bottom: -40px;
   font-family: "Dancing Script", cursive;
   font-weight: 400;
+  
 }
 
 #funaab-academic-overlay {
@@ -970,5 +971,8 @@ main > h2{
     margin-left: 32px;
     margin-bottom: 24px;
   }
- 
+ header #footer{
+  display: flex;
+  flex-direction: column;
+ }
 }
