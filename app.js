@@ -21,11 +21,11 @@ document.getElementById("link1").addEventListener("click", function() {
   alert("This feature will be available soon!");
 });
 
-// Attach a click event listener to the second link
-document.getElementById("link2").addEventListener("click", function() {
-  // Display the message
-  alert("This feature will be available soon!");
-});
+// // Attach a click event listener to the second link
+// document.getElementById("link2").addEventListener("click", function() {
+//   // Display the message
+//   alert("This feature will be available soon!");
+// });
 document.getElementById("link3").addEventListener("click", function() {
   // Display the message
   alert("This feature will be available soon!");
